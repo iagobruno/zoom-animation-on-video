@@ -4,9 +4,14 @@
   "author": "Iago Bruno <httpiago@gmail.com> (https://www.iagobruno.com/)",
   "license": "MIT",
   "scripts": {
-    "start": "parcel src/index.html"
+    "start": "parcel src/index.html",
+    "build": "del-cli dist && parcel build src/index.html --public-url https://httpiago.github.io/zoom-animation-on-video/",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "del-cli": "^1.1.0",
+    "gh-pages": "^2.0.1",
     "parcel-bundler": "^1.12.3",
     "typescript": "^3.4.5"
   },
