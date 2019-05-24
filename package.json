@@ -1,0 +1,16 @@
+{
+  "homepage": "https://httpiago.github.io/zoom-animation-on-video/",
+  "repository": "https://github.com/httpiago/zoom-animation-on-video.git",
+  "author": "Iago Bruno <httpiago@gmail.com> (https://www.iagobruno.com/)",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "dependencies": {
+    "parcel-bundler": "^1.12.3",
+    "typescript": "^3.4.5"
+  },
+  "devDependencies": {
+    "@types/youtube": "^0.0.37"
+  }
+}
