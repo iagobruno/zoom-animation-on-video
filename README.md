@@ -2,7 +2,7 @@
 
 This is a simple demonstration of an idea I had, which consists of making a zoom effect on the page to the region where a video is located when the user clicks on it to watch in full screen.
 
-[![Online Demo](https://img.shields.io/badge/Online-Demo-brightgreen.svg)](https://httpiago.github.io/zoom-animation-on-video/)
+[![Online Demo](https://img.shields.io/badge/Online-Demo-brightgreen.svg)](https://iagobruno.github.io/zoom-animation-on-video/)
 
 ## Compatibility
 
