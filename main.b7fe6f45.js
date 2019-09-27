@@ -5,4 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./utils":"UnXq"}],"ZCfc":[function(require,module,exports) {
 "use strict";var e=this&&this.__importDefault||function(e){return e&&e.__esModule?e:{default:e}};exports.__esModule=!0;var t=require("./utils"),o=e(require("./player")),n="ucAg5oeb0vE";window.onYouTubePlayerAPIReady=function(){new o.default(n)},document.addEventListener("DOMContentLoaded",function(){document.body.classList.toggle("is-mobile",t.checkIsMobile())}),document.querySelector(".call-to-action").addEventListener("click",function(){document.querySelector(".video__overlay").click()});
 },{"./utils":"UnXq","./player":"d6pW"}]},{},["ZCfc"], null)
-//# sourceMappingURL=https://httpiago.github.io/zoom-animation-on-video/main.b7fe6f45.js.map
+//# sourceMappingURL=https://iagobruno.github.io/zoom-animation-on-video/main.b7fe6f45.js.map
