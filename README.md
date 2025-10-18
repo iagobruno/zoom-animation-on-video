@@ -4,6 +4,8 @@ This is a simple demonstration of an idea I had, which consists of making a zoom
 
 [![Online Demo](https://img.shields.io/badge/Online-Demo-brightgreen.svg)](https://iagobruno.github.io/zoom-animation-on-video/)
 
+[![](/demo.gif)](https://iagobruno.github.io/zoom-animation-on-video/)
+
 ## Compatibility
 
 I tested this effect on Chrome and Firefox (other browsers should be tested in case of future use) and I had a small problem with Firefox for doing the animation correctly, [because Firefox does not allow delaying the fullscreen request](https://developer.mozilla.org/pt-BR/docs/Web/API/Fullscreen_API#When_a_fullscreen_request_fails) when the user clicks a button, then the effect can not be correctly checked on it 😕.
